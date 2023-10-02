@@ -29,7 +29,6 @@ public class SimpleProgram {
             liczbaWylosowana = random.nextInt(1, 7);
             System.out.println("Twoja liczba to " + liczbaWylosowana);
 
-
             if (liczbaWylosowana <= 3) {
                 System.out.println("Mało");
             } else {

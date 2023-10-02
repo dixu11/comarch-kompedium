@@ -70,6 +70,8 @@ public class Variable {
                           // możliwość nadpisania tej metody na porownywanie po wartości
 
 
+        MyType myObject = new MyType();
+        MyType[] myArray = new MyType[2];
+        myArray[0] = myObject;
     }
-
 }

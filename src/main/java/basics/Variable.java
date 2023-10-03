@@ -74,4 +74,15 @@ public class Variable {
         MyType[] myArray = new MyType[2];
         myArray[0] = myObject;
     }
+
+
+//metoda w innej klasie
+
+    static int dodaj(int number1, int number2) {
+//       int number1 = 10;
+//       int number2 = 20;
+        int result = number1 + number2;
+        // System.out.println(result);
+        return result;
+    }
 }

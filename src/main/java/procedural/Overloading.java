@@ -9,7 +9,6 @@ public class Overloading {
         System.out.println(add(1.,2));
         System.out.println(add(1.0,2));
         System.out.println(add(23,45,34));
-
     }
 
     private static double add(int number1, int number2) {
@@ -26,4 +25,6 @@ public class Overloading {
         System.out.println("M3");
         return number1 + number2 + number3;
     }
+
+
 }

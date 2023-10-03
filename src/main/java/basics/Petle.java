@@ -1,5 +1,7 @@
 package basics;
 
+import java.util.Random;
+
 public class Petle {
     public static void main(String[] args) {
         /*//while
@@ -56,6 +58,34 @@ public class Petle {
             System.out.println(liczba);
         }
         System.out.println("-----");
+
+        String[] names = new String[5];
+        //tablica wypełnia się domyślnymi wartościami:
+        //dla typów prymitywnych: 0 lub false
+        //dla typów referencyjnych: null (brak wskaźnika)
+        System.out.println(names[0]);
+
+
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            int generatedValue = random.nextInt(1, 4);
+            System.out.println("i: " + i);
+            if (generatedValue == 1) {
+                continue; //przerywa aktualne powtorzenie pętli i przechodzi do kolejnego
+            }
+            System.out.println(generatedValue);
+            if (generatedValue == 3) {
+                System.out.println("Przerywam pętlę");
+                break; // break przerywa pętlę
+               // return;// przerywa metą
+            }
+        }
+        System.out.println("Koniec");
+
+        for(int x = 0, y = 0;;x+=2,y--){ // można nietypowo definiować zmienne i iteracje  // (;;) = nieskońoczna pętla
+            System.out.println("hello");
+        }
+
 
 
     }

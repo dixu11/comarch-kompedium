@@ -1,4 +1,6 @@
-package basics;
+package procedural;
+
+import basics.Variable;
 
 import java.util.Random;
 

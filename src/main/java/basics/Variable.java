@@ -78,7 +78,7 @@ public class Variable {
 
 //metoda w innej klasie
 
-    static int dodaj(int number1, int number2) {
+   public static int dodaj(int number1, int number2) {
 //       int number1 = 10;
 //       int number2 = 20;
         int result = number1 + number2;

@@ -1,19 +1,15 @@
-package oop.inheritance;
+package oop.inheritance.animals;
 
 public class Dog extends Animal { //pies JEST zwierzęciem
-    private String name;
-    private int age;
     private String breed;
 
     public Dog(String name, int age, String breed) {
-        this.name = name;
-        this.age = age;
+        super(name,age);
         this.breed = breed;
     }
 
     public Dog() {
-        name = "Bruno";
-        age = 8;
+        super("Bruno",8);
         breed = "mieszaniec";
     }
 

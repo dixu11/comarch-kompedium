@@ -1,19 +1,15 @@
-package oop.inheritance;
+package oop.inheritance.animals;
 
 public class Rat extends Animal {
-    private String name;
-    private int age;
     private String color;
 
     public Rat(String name, int age, String color) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.color = color;
     }
 
     public Rat() {
-        name = "Szczurek";
-        age = 3;
+        super("Szczurek",3);
         color = "brązowy";
     }
 

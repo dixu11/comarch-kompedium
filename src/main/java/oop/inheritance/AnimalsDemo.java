@@ -1,7 +1,9 @@
 package oop.inheritance;
 
-import java.util.ArrayList;
-import java.util.Random;
+import oop.inheritance.animals.Animal;
+import oop.inheritance.animals.Dog;
+import oop.inheritance.animals.Elephant;
+import oop.inheritance.animals.Rat;
 
 public class AnimalsDemo {
     public static void main(String[] args) {
@@ -35,7 +37,7 @@ public class AnimalsDemo {
         //konstruktory - nie
 
         System.out.println("------KEEPER-----------");
-        Elephant elephant = new Elephant();
+        Elephant elephant = new Elephant("Filek",30);
         AnimalKeeper animalKeeper = new AnimalKeeper();
 //        animalKeeper.feedDog(dog2);
 //        animalKeeper.feedRat(rat);
@@ -61,5 +63,6 @@ public class AnimalsDemo {
         }
 
         System.out.println("-----------");
+
     }
 }

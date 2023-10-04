@@ -1,10 +1,16 @@
-package oop.inheritance;
+package oop.inheritance.animals;
 
 public abstract class Animal {
     //abstrakcyjna klasa może mieć abstrakcyjne metody
     //nie można zrobić obiektu bezpośrednio z typu Animal
 
+     String name;  //ew. protected - dla klas dzidziczących z innych pakietów
+     int age;
 
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
     //template method design pattern
 /*    public void goToSleep() {

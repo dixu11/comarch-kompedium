@@ -1,5 +1,9 @@
 package oop.inheritance;
 
+import oop.inheritance.animals.Animal;
+import oop.inheritance.animals.Dog;
+import oop.inheritance.animals.Rat;
+
 public class AnimalKeeper {
     public void feedDog(Dog dog) {
         System.out.println("Zaopiekuję się psem!");

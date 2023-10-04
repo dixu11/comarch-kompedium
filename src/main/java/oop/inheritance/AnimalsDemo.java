@@ -1,5 +1,6 @@
 package oop.inheritance;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class AnimalsDemo {

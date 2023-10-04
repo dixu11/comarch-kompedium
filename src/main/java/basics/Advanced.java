@@ -35,8 +35,11 @@ public class Advanced {
         lista.add("hello");
 
 
-        //todo wspomniec o printf
-        //todo rzutowanie
-        //todo StringBuilder
+
     }
 }
+
+//todo rzutowanie
+//todo StringBuilder
+//todo slf4j logger + logger factory
+//todo tablice wielowymiarowe

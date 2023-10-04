@@ -43,4 +43,4 @@ public class VarargsAndSFormat {
         return allNumbers;
     }
 }
-//todo slf4j logger + logger factory
+

@@ -33,12 +33,14 @@ public class AnimalsDemo {
         //typ?
         //konstruktory - nie
 
-        System.out.println("-----------------");
+        System.out.println("------KEEPER-----------");
+        Elephant elephant = new Elephant();
         AnimalKeeper animalKeeper = new AnimalKeeper();
 //        animalKeeper.feedDog(dog2);
 //        animalKeeper.feedRat(rat);
         animalKeeper.feedAnimal3(dog2);
         animalKeeper.feedAnimal3(rat);
+        animalKeeper.feedAnimal3(elephant);
 
 
         //polimorfizm, zdolność języka obiektowego
@@ -51,9 +53,12 @@ public class AnimalsDemo {
         anAnimal.eat(); //behaves like a rat
 
         System.out.println("----------");
+      //  Animal animal10 = new Animal();// new Animal nie dizała bo klasa abstrakcyjna
         Animal[] animals = {dog2, anAnimal, rat};
         for (Animal nextAnimal : animals) {
             nextAnimal.makeSound();
         }
+
+        System.out.println("-----------");
     }
 }

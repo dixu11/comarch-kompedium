@@ -1,12 +1,13 @@
 package oop.inheritance;
 
-public class Animal {
+public abstract class Animal {
+    //abstrakcyjna klasa może mieć abstrakcyjne metody
+    //nie można zrobić obiektu bezpośrednio z typu Animal
 
     public void eat() {
         System.out.println("Zwierze sobie je");
     }
 
-    public void makeSound() {
-
-    }
+    public abstract void makeSound();
+    //abstrakcyjna metoda nie ma ciała
 }

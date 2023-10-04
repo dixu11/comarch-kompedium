@@ -17,9 +17,18 @@ public class Dog extends Animal { //pies JEST zwierzęciem
         breed = "mieszaniec";
     }
 
+    @Override
+    public void eat() {
+        System.out.println("Pies je kość!");
+    }
 
     public void bark() {
         System.out.println("Pies szczeka: hau! hau!");
+    }
+
+    @Override
+    public void makeSound() {
+        bark();
     }
 
     public void aport() {

@@ -10,7 +10,7 @@ public class Person {
         System.out.printf("Nazywam się %s mam %d lat!\n",name,age);
     }
 
-    public void haveBirthday() {
+    public  void haveBirthday() {
         age++;
     }
 

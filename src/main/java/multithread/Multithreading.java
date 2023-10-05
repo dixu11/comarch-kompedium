@@ -3,10 +3,10 @@ package multithread;
 public class Multithreading {
     public static void main(String[] args) {
         //zadanie
-        Task task = new Task();
+        StoppableTask stoppableTask = new StoppableTask();
 
         //pracownik
-        Thread thread = new Thread(task);
+        Thread thread = new Thread(stoppableTask);
 
         //uruchomienie wątku
         thread.start();

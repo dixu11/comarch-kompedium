@@ -1,6 +1,8 @@
 package oop.inheritance.animals;
 
-public class Dog extends Animal { //pies JEST zwierzęciem
+import oop.inheritance.FriendlyAnimal;
+
+public class Dog extends Animal implements FriendlyAnimal { //pies JEST zwierzęciem
     private String breed;
 
     public Dog(String name, int age, String breed) {
@@ -29,5 +31,10 @@ public class Dog extends Animal { //pies JEST zwierzęciem
 
     public void aport() {
         System.out.println("Pies leci aportować");
+    }
+
+    @Override
+    public void pet() {
+        System.out.println("Pies macha ogonem z radości!");
     }
 }

@@ -7,6 +7,10 @@ import oop.inheritance.animals.Rat;
 
 public class AnimalsDemo {
     public static void main(String[] args) {
+        //dziedziczyć można bezpośrednio tylko jedną klasę (ale ona może dziedizczyć inną)
+
+
+
         Dog animal = new Dog();
         //  animal = new Rat(); //zadziała jeśli zmienna typu Dog
         // animal = new Random(); //zadziała jeśli typ Object

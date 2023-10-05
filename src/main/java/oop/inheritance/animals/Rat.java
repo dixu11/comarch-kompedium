@@ -1,6 +1,9 @@
 package oop.inheritance.animals;
 
-public class Rat extends Animal {
+import oop.inheritance.FriendlyAnimal;
+import oop.inheritance.WildAnimal;
+
+public class Rat extends Animal implements FriendlyAnimal, WildAnimal {
     private String color;
 
     public Rat(String name, int age, String color) {
@@ -29,5 +32,15 @@ public class Rat extends Animal {
     public void eat() {
         super.eat();
         System.out.println("Dobiera się do sera");
+    }
+
+    @Override
+    public void pet() {
+        System.out.println("Szczurek jest zadowolony");
+    }
+
+    @Override
+    public void bite() {
+        System.out.println("Szczur gryzie uważaj!");
     }
 }

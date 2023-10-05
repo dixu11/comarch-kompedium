@@ -1,9 +1,10 @@
 Do omówienia:
 - exceptions
-
 - kolekcje (map, set, queue)
-- testy jednostkowe
+
 - wielowątkowość
+- testy jednostkowe
+
 - lambda
 - stream
 - praca z plikami

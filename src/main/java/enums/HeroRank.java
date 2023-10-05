@@ -2,7 +2,10 @@ package enums;
 
 public enum HeroRank {
     //obiekty
-    WARRIOR(5), CLERIC(3), ROGUE(2), MAGE(0);
+    WARRIOR(5),
+    CLERIC(3),
+    ROGUE(2),
+    MAGE(0);
 
     //stan
     private int attackBonus;

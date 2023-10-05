@@ -1,14 +1,16 @@
 Do omówienia:
 - exceptions
+
 - kolekcje (map, set, queue)
-- lambda
-- stream
 - testy jednostkowe
 - wielowątkowość
+- lambda
+- stream
 - praca z plikami
 - połączenie z bazą danych (JDBC)
 - Hibernate
 - Wstęp do Spring
 - wzorce projektowe / zasady solid
 
+- Sortowanie i porównywanie
 - Refleksja

@@ -21,7 +21,7 @@ public abstract class Being {
         return name + "\nPower: " + power + "\nDefense: " + defense;
     }
 
-    String getName() {
+   public String getName() {
         return name;
     }
 }

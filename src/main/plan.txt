@@ -8,9 +8,9 @@ Do omówienia:
 - praca z plikam
 - połączenie z bazą danych (JDBC)
 - Hibernate  //w spring część modułu JPA
-
 - Refleksja
 - Sortowanie i porównywanie
+
 - wzorce projektowe / zasady SOLID
 - Wstęp do Spring
 

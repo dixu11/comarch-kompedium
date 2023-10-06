@@ -3,14 +3,62 @@ Do omówienia:
 - kolekcje (map, set, queue)
 - wielowątkowość
 - testy jednostkowe
-
 - lambda
 - stream
-- praca z plikami
+- praca z plikam
 - połączenie z bazą danych (JDBC)
-- Hibernate
-- Wstęp do Spring
-- wzorce projektowe / zasady solid
+- Hibernate  //w spring część modułu JPA
 
-- Sortowanie i porównywanie
 - Refleksja
+- Sortowanie i porównywanie
+- wzorce projektowe / zasady SOLID
+- Wstęp do Spring
+
+
+
+
+
+
+To ciągły czat na spotkaniu
+
+Ty pon., 16:31
+https://github.com/dixu11/comarch-kompedium
+
+Ty pon., 16:31
+https://github.com/dixu11/comarch-kompedium
+{b}pon., 16:32{/b} – spotkanie zakończone: 7 godz. 47 min.
+śr.
+
+Jakub Wachowicz śr., 9:00
+https://docs.google.com/document/d/1_s0fzkBq54Br36P9Y12_o0V-K0C28DpriObbKkftjp0/edit#heading=h.hbwvvb4llow0
+
+Ty śr., 16:25
+https://docs.google.com/document/d/1Ei2AJU2x2dPBjVUndzDbv0aw4gonT6xtIOns9NqYcwY/edit?usp=sharing
+polecam dla przećwiczenia zadania z tego drugiego arkusza sekcja o dziedziczeniu zadanie 6
+{b}śr., 16:28{/b} – spotkanie zakończone: 7 godz. 43 min.
+Wczoraj
+{b}Wczoraj, 8:45{/b} – spotkanie rozpoczęte
+Wiadomości wysłane podczas spotkania będą widoczne dla wszystkich uczestników spotkania
+
+Ty Wczoraj, 14:49
+https://www.youtube.com/watch?v=mkCTxtLe7XU&list=PLB841C370FAFB8EC7&ab_channel=CaveofProgramming
+
+Ty Wczoraj, 16:32
+https://www.youtube.com/watch?v=YdlnEWC-7Wo&list=PLBB24CFB073F1048E&ab_channel=CaveofProgramming
+{b}Wczoraj, 16:33{/b} – spotkanie zakończone: 7 godz. 48 min.
+Dziś
+{b}8:45{/b} – spotkanie rozpoczęte
+Wiadomości wysłane podczas spotkania będą widoczne dla wszystkich uczestników spotkania
+
+Ty 9:16
+https://www.baeldung.com/parameterized-tests-junit-5
+
+Ty 9:17
+Harmcrest i AssertJ
+https://www.udemy.com/course/testy-jednostkowe/
+
+Ty 12:42
+https://www.udemy.com/course/java-the-complete-java-developer-course/
+
+Ty 12:45
+https://www.youtube.com/watch?v=8-

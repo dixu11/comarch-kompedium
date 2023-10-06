@@ -30,3 +30,12 @@
         Stan (obiektowy) -> dla wszystkich zachowań obiektu: https://www.youtube.com/watch?v=De4pHck7qv4&ab_channel=SzlichtProgramming
         Odwiedzający/Wizytator (ang. visitor) (obiektowy), -> dla aplikacji w której jest wiele zachowań małej ilości obiektów.
                                         Dodajemy nowe zachowania do obiektów bez zmieniania ich stanu.
+
+
+SOLID
+
+Single responsibility - tylko jeden powód do modyfikacji obiektu - obiekt działa tylko w jednym kontekście
+Open Close - Otwarty na rozszerzanie, zamknięty na modyfikacje
+Liscov Substitution - Każda implementacja może zostać podstawiona do ogólnego typu.
+Interface segregation - lepiej jest mieć dużo mniejszych interfejsów niż jeden duży
+Dependency Inversion - wysokopoziomowe klasy nie powinny korzystać z niskopoziomowych szczegółów tylko z innych abstrakcji

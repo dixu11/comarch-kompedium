@@ -10,12 +10,10 @@ Do omówienia:
 - Hibernate  //w spring część modułu JPA
 - Refleksja
 - Sortowanie i porównywanie
+- wzorce projektowe
 
-- wzorce projektowe / zasady SOLID
+- zasady SOLID
 - Wstęp do Spring
-
-
-
 
 
 

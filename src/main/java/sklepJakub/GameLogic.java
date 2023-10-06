@@ -13,6 +13,12 @@ public class GameLogic {
         seller = new Seller();
     }
 
+     GameLogic(Seller seller, GameInterface gameInterface, Hero hero) {
+        this.seller = seller;
+        this.gameInterface = gameInterface;
+         this.hero = hero;
+    }
+
     public void startGame(){
         while (true){
             this.hero = new Hero(gameInterface.getHeroName());
@@ -40,11 +46,12 @@ public class GameLogic {
         }
     }
 
-    private void sellingItem(){
+     void sellingItem(){
         int choice = gameInterface.chooseItemFromPool();
         // if(choice == 6) return;
         Item itemChosenToSell = seller.chooseItemToSell(choice);
         boolean couldBuy = hero.buyItem(itemChosenToSell);
+
         if(couldBuy){
             seller.sellItem(itemChosenToSell);
             seller.cleanItems();

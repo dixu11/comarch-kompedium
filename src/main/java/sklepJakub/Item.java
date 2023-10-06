@@ -20,30 +20,30 @@ public class Item {
         addBonus();
     }
 
-    private void drawStats(){
-        int cost123 = 1+random.nextInt(3);
-        price = 5*(cost123);
+    private void drawStats() {
+        int cost123 = 1 + random.nextInt(3);
+        price = 5 * (cost123);
         power = random.nextInt(cost123);
-        defense = cost123-power;
+        defense = cost123 - power;
     }
 
-    private void addBonus(){
-        switch (itemType){
+    private void addBonus() {
+        switch (itemType) {
             case LOTR:
                 power++;
                 defense++;
                 break;
             case WOJOWNIK:
-                power+=2;
+                power += 2;
                 break;
             case KLERYK:
-                defense+=2;
+                defense += 2;
                 break;
         }
     }
 
-    public void printItem(){
-        System.out.println("Nazwa: " + name + "\nSiła: " + power + "\nObrona: " + defense + "\nCena: " + price + "\n" + itemType.getDescription()+"\n");
+    public void printItem() {
+        System.out.println("Nazwa: " + name + "\nSiła: " + power + "\nObrona: " + defense + "\nCena: " + price + "\n" + itemType.getDescription() + "\n");
     }
 
     public int getPrice() {
@@ -60,5 +60,13 @@ public class Item {
 
     public ItemType getItemType() {
         return itemType;
+    }
+
+    void setPrice(int price) {
+        this.price = price;
+    }
+
+     void setItemType(ItemType itemType) {
+        this.itemType = itemType;
     }
 }

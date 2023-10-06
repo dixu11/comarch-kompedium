@@ -1,7 +1,6 @@
 package sklepJakub;
 
 public class Hero extends Being {
-    private String name;
     private int monstersSlayed;
     private static String RESET = "\u001B[0m";
     private static String PURPLE = "\u001B[45m";
@@ -35,11 +34,10 @@ public class Hero extends Being {
 
     public boolean buyItem(Item item){
         if (coins < item.getPrice()){
-            System.out.println("Heros ma za mało pieniędzy, wybierz inny przedmiot!");
-            return false;
+            throw new ItemException("Heros ma za mało pieniędzy, wybierz inny przedmiot!");
         }else if(!(item.getItemType().name().equals(getHeroType().name()))){
             System.out.println("Niekompatybilna klasa!");
-            return false;
+            throw new ItemException("Niekompatybilna klasa!");
         }
         coins -= item.getPrice();
         power += item.getPower();
@@ -55,4 +53,7 @@ public class Hero extends Being {
         return coins;
     }
 
+     void setHeroType(HeroType heroType) {
+        this.heroType = heroType;
+    }
 }

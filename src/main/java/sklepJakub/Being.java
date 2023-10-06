@@ -20,4 +20,8 @@ public abstract class Being {
     public String displayStats(){
         return name + "\nPower: " + power + "\nDefense: " + defense;
     }
+
+    String getName() {
+        return name;
+    }
 }
